@@ -1,0 +1,11 @@
+{
+  "name": "@repo/server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "air"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

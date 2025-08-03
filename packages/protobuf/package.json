@@ -1,0 +1,17 @@
+{
+  "name": "@repo/protobuf",
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "buf generate"
+  },
+  "exports": {
+    "./ts/*": "./ts/*"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "^2.6.2"
+  },
+  "devDependencies": {
+    "@bufbuild/buf": "^1.56.0",
+    "@bufbuild/protoc-gen-es": "^2.6.2"
+  }
+}

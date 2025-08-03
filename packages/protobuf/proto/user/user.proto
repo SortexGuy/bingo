@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "github.com/Gabo-div/bingo/packages/protobuf/go/proto/user;user";
+
+service UserService {
+  rpc GetUser(Empty) returns (User);
+}
+
+message Empty {
+}
+
+message User {
+  string id = 1;
+  string name = 2;
+  string email = 3;
+  bool emailVerified = 5;
+  string image = 6;
+  string createdAt = 7;
+  string updatedAt = 8;
+}
