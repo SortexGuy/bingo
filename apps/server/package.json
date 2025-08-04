@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "air"
+    "dev": "air",
+    "db:push": "echo 'pushing'"
   },
   "keywords": [],
   "author": "",
