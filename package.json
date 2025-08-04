@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "env": "./env-cpy.sh",
+    "prep": "pnpm run --prefix ./apps/server prep",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "db:push": "turbo run db:push",
